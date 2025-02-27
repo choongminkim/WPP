@@ -1,1 +1,1 @@
-# WPP - WSI Preprocessing Pipeline
+# WPP - WSI Processing Pipeline
