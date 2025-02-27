@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "wpp"
 version = "0.1.0"
-description = "WPP - WSI Preprocessing Pipeline"
+description = "WPP - WSI Processing Pipeline"
 authors = ["Choongmin Kim <choongminkim0123@gmail.com>"]
 readme = "README.md"
 packages = [
@@ -10,7 +10,18 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.13"
+torch = "^2.6.0"
+torchvision = "^0.21.0"
+torchaudio = "^2.6.0"
+lightning = "^2.5.0.post0"
+openslide-python = "^1.4.1"
+opencv-python = "^4.11.0.86"
+matplotlib = "^3.10.0"
+scikit-image = "^0.25.2"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
