@@ -4,17 +4,7 @@ from typing import Tuple
 from openslide import OpenSlide
 import numpy as np
 
-from src.utils import rgba2rgb
-
-
-# def read_wsi(path: str, level: int = 0):
-#     try:
-#         wsi = OpenSlide(path)
-#         image = wsi.read_region((0, 0), level, wsi.level_dimensions[level])
-#         image = np.array(image)
-#         return image
-#     except Exception as e:
-#         print(e)
+from src.transformer import rgba2rgb
 
 
 class WSIReader(object):
