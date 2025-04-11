@@ -18,6 +18,7 @@ openslide-python = "^1.4.1"
 opencv-python = "^4.11.0.86"
 matplotlib = "^3.10.0"
 scikit-image = "^0.25.2"
+scikit-learn = "^1.6.1"
 
 
 [tool.poetry.group.dev.dependencies]
